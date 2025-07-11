@@ -1,3 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+   background:url(/media/Hero-bg.png) no-repeat center center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 40px; 
+}
 .logo{
-    
+    font-size: 60px;
+    font-weight: bold;
+    color: blue;
+}
+.sign-up{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.sign-up:hover{
+    background-color: palevioletred;
+}
+.ban-content h1{
+ font-size: 5em;
+ margin-bottom: 30px;
+}
+.focus-button{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.focus-button:hover{
+    background-color: rgba(216, 112, 147, 0.555);
+}
+.banner{
+background:url(/media/Hero-bg.png) no-repeat center center;
+background-size: cover;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+padding: 150px;
 }
