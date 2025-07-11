@@ -15,7 +15,7 @@ justify-content: space-between;
 padding: 20px 40px; 
 }
 .logo{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: blue;
 }
@@ -33,7 +33,7 @@ padding: 20px 40px;
     background-color: palevioletred;
 }
 .ban-content h1{
- font-size: 5em;
+ font-size: 4em;
  margin-bottom: 30px;
 }
 .focus-button{
@@ -57,4 +57,44 @@ text-align: center;
 justify-content: center;
 align-items: center;
 padding: 150px;
+}
+
+.live-button{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.live-button:hover{
+  background-color: palevioletred;
+}
+.action-image img{
+    width: 500px;
+    border: none;
+    border-radius: 28px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.377) ;
+}
+.action-content h2{
+    font-size: 45px;
+    color: black;
+    margin-bottom: 15px;
+}
+.action-content p{
+    font-size: 35px;
+    color: gray;
+    margin-bottom: 25px;
+}
+.action-content{
+    max-width: 50%;
+}
+.action-selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 400px;
+
 }
