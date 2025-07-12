@@ -1,6 +1,30 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;<div class="contact-right">
+    <form class="contact-form">
+        <label for="email">Email</label>
+        <input type="email"  placeholder="example@email.com" id="email" required>
+       <label for="name">Name</label>
+        <input type="text"  placeholder="full name" id="name" required>
+
+         <label for="message">Message</label>
+     <textarea  id="message" placeholder="write your message...." rows="5"></textarea>
+
+     <button type="submit">Get in Touch</button>
+    </form>
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+</body>
+</html>
     box-sizing: border-box;
 }
 body{
@@ -224,4 +248,93 @@ body feedback-section{
    .feedback-card{
     width: 100%;
    }
+}
+
+
+.contact-section {
+  background-color: #f6f8ff;
+  padding: 60px 20px;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.contact-left h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: black;
+  
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-right label {
+  font-size: 1rem;
+  margin-top: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.contact-right textarea {
+  min-height: 120px;
+}
+
+.contact-right button {
+  background-color: #4c4cff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact-right button:hover {
+  background-color: palevioletred;
+}
+
+
+
+.footer{
+  background-color: #f0f0ff;
+  text-align: center;
+  padding: 30px 20px;
+}
+.footer h1{
+   color: #3f51b5;
+   margin-bottom: 10px;
+}
+.footer p{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+.footer-links a{
+  margin:0 10px;
+  text-decoration: none;
+  color: #3f51b5;
+  font-weight: 600;
 }
