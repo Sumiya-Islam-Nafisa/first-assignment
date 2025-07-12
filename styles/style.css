@@ -316,8 +316,6 @@ body feedback-section{
   background-color: palevioletred;
 }
 
-
-
 .footer{
   background-color: #f0f0ff;
   text-align: center;
@@ -325,10 +323,11 @@ body feedback-section{
 }
 .footer h1{
    color: #3f51b5;
+   font-size: 40gipx;
    margin-bottom: 10px;
 }
 .footer p{
-  font-size: 14px;
+  font-size: 15px;
   color: #666;
   margin-bottom: 15px;
 }
