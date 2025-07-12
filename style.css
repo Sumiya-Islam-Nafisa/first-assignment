@@ -31,7 +31,7 @@ body{
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar{
-   background:url(/Hero-bg.png) no-repeat center center;
+   background:url(./Hero-bg.png) no-repeat center center;
 background-size: cover;
 display: flex;
 align-items: center;
