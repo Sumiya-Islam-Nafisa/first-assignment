@@ -74,7 +74,7 @@ padding: 20px 40px;
     background-color: rgba(216, 112, 147, 0.555);
 }
 .banner{
-background:url(/Hero-bg.png) no-repeat center center;
+background:url(./Hero-bg.png) no-repeat center center;
 background-size: cover;
 display: flex;
 text-align: center;
